@@ -43,7 +43,7 @@ section#login {
 
 section#login>div#imagem {
     display: block;
-    background: #ece7e7 url(/assets/avatar2.png) no-repeat;
+    background: #ece7e7 url(/assets/gundan_main.png) no-repeat;
     background-size: cover;
     background-position: left center;
     height: 200px;
@@ -158,7 +158,7 @@ form>a.botao>span {
         float: left;
         width: 30%;
         height: 100%;
-        background: #4b3c5d url(/assets/gundan_main.png) no-repeat;
+        background: #4b3c5d url(tela_login_lais/assets/gundan_main.png) no-repeat;
         background-size: cover;
         background-position: right bottom;
 
