@@ -1,0 +1,99 @@
+@charset "UTF-08";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+body,
+main{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #20b4b4a1;
+    display: flex;
+    flex-direction: column;
+    min-width: 100vh;
+    align-items: center;
+    justify-content: center;
+
+}
+
+h1 {
+    font-size: 1.9em;
+    color: #0b0fec;
+
+}
+
+canvas {
+    background-image: linear-gradient(to right, red, blue);
+    background-color: rgba(4, 0, 11, 0.89);
+    align-items: center;
+    border: 5px solid #070505;
+}
+
+.score {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.8rem;
+    color: #080808c6;
+
+}
+
+.score--value {
+    font-weight: 700;
+    font-size: 4.5rem;
+    display: block;
+    margin-top: -10px;
+}
+
+.menu-screen {
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+}
+
+.game-over {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 3rem;
+    color: #e76800;
+}
+
+.final-score {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #f5efea;
+}
+
+.btn-play {
+    border: none;
+    border-radius: 100px;
+    padding: 10px 15px 10px 12px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #2772c9;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+footer {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #1e2a78d6;
+    color: #f5efea;
+    min-width: 100vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
